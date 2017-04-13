@@ -1,3 +1,5 @@
+source("loadData.R")
+
 plot4 <- function(){
   #divide area into 2 by 2
   par(mfrow = c(2,2))

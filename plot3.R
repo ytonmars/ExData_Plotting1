@@ -1,3 +1,5 @@
+source("loadData.R")
+
 plot3 <- function(){
   par(mfrow = c(1,1))
   plot(df$datetime, df$Sub_metering_1, type="l", col="black", xlab = "", ylab="Energy sub metering")
